@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Treasure Hunt controlled reference target.
+  Deterministic source: 1200 x 1600 px, nominal printed size 180 x 240 mm.
+  The dashed lower-right box is intentionally NOT a valid ArUco marker.
+-->
+<svg xmlns="http://www.w3.org/2000/svg" width="180mm" height="240mm" viewBox="0 0 1200 1600">
+  <rect width="1200" height="1600" fill="#f7f1dc"/>
+  <rect x="34" y="34" width="1132" height="1532" rx="18" fill="none" stroke="#111827" stroke-width="24"/>
+  <path d="M62 235 H1138 M62 1325 H1138" stroke="#d97706" stroke-width="18"/>
+
+  <g fill="#111827">
+    <path d="M92 82 h300 v112 h-300 z M118 108 h248 v60 h-248 z" fill-rule="evenodd"/>
+    <circle cx="1005" cy="143" r="75"/>
+    <path d="M1005 83 l18 38 42 6-30 29 7 42-37-20-38 20 8-42-31-29 42-6z" fill="#f7f1dc"/>
+  </g>
+
+  <text x="600" y="315" text-anchor="middle" font-family="DejaVu Sans, sans-serif" font-size="64" font-weight="900" fill="#111827">PUERTA DEL GUARDIÁN 27</text>
+  <text x="600" y="370" text-anchor="middle" font-family="DejaVu Sans Mono, monospace" font-size="30" font-weight="700" fill="#9a3412">ARCHIVO DE ACCESO · SECTOR NORTE</text>
+
+  <g stroke="#111827" fill="none">
+    <path d="M95 430 C250 375 360 520 505 450 S760 390 905 475 1070 505 1120 425" stroke-width="15"/>
+    <path d="M92 500 L270 405 430 545 600 415 790 560 960 420 1110 515" stroke-width="8"/>
+    <path d="M150 610 L335 480 465 650 650 505 830 675 1060 525" stroke="#d97706" stroke-width="18"/>
+  </g>
+
+  <g transform="translate(105 700)">
+    <rect width="455" height="510" rx="22" fill="#111827"/>
+    <rect x="22" y="22" width="411" height="466" rx="12" fill="#f7f1dc"/>
+    <path d="M55 435 L125 255 205 350 285 135 395 435 Z" fill="#d97706"/>
+    <path d="M72 405 L145 290 215 382 292 185 378 405 Z" fill="#111827"/>
+    <circle cx="115" cy="120" r="53" fill="#d97706"/>
+    <circle cx="115" cy="120" r="27" fill="#f7f1dc"/>
+    <path d="M245 72 h145 M245 105 h110 M245 138 h135" stroke="#111827" stroke-width="15"/>
+    <path d="M56 455 H398" stroke="#111827" stroke-width="12" stroke-dasharray="20 11"/>
+  </g>
+
+  <g transform="translate(625 690)" stroke="#111827">
+    <path d="M20 25 h430 v300 h-430 z" fill="#f7f1dc" stroke-width="12"/>
+    <path d="M40 290 L105 65 170 230 245 92 315 260 405 48" fill="none" stroke="#111827" stroke-width="17"/>
+    <g fill="#d97706" stroke-width="7">
+      <circle cx="105" cy="65" r="20"/><rect x="150" y="210" width="40" height="40"/>
+      <path d="M245 65 l25 43 h-50z"/><circle cx="315" cy="260" r="22"/>
+      <path d="M405 22 l25 26-25 26-25-26z"/>
+    </g>
+    <path d="M55 345 h390 M55 390 h310 M55 435 h350" stroke-width="14" stroke-dasharray="35 14 8 14"/>
+  </g>
+
+  <g transform="translate(700 1160)">
+    <rect width="365" height="315" rx="8" fill="#f7f1dc" stroke="#111827" stroke-width="12" stroke-dasharray="25 16"/>
+    <path d="M40 40 L325 275 M325 40 L40 275" stroke="#9a3412" stroke-width="17"/>
+    <circle cx="182" cy="158" r="72" fill="#f7f1dc" stroke="#111827" stroke-width="10"/>
+    <text x="182" y="148" text-anchor="middle" font-family="DejaVu Sans Mono, monospace" font-size="27" font-weight="900" fill="#111827">RESERVA</text>
+    <text x="182" y="184" text-anchor="middle" font-family="DejaVu Sans Mono, monospace" font-size="27" font-weight="900" fill="#111827">ARUCO</text>
+  </g>
+
+  <g fill="#111827" font-family="DejaVu Sans Mono, monospace" font-weight="700">
+    <text x="105" y="1280" font-size="34">N 19°25′57″</text>
+    <text x="105" y="1330" font-size="34">O 99°07′59″</text>
+    <text x="105" y="1395" font-size="26">△ 04 / ○ 11 / □ 23</text>
+    <text x="105" y="1445" font-size="26">CLAVE VISUAL: G-27-N</text>
+    <text x="105" y="1500" font-size="22">TREASURE HUNT · OBJETIVO CONTROLADO</text>
+  </g>
+
+  <g fill="#d97706">
+    <circle cx="85" cy="390" r="10"/><circle cx="142" cy="405" r="7"/>
+    <circle cx="1080" cy="610" r="12"/><circle cx="1120" cy="650" r="6"/>
+    <rect x="585" y="620" width="26" height="26" transform="rotate(17 598 633)"/>
+    <path d="M580 1190 l42 12-30 31z"/>
+  </g>
+</svg>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="297mm" height="210mm"
+     viewBox="0 0 297 210" shape-rendering="crispEdges">
+  <title>Treasure Hunt calibration chessboard 9 x 6 internal corners</title>
+  <desc>Print at 100 percent. 10 x 7 squares, 20 mm each, board 200 x 140 mm.</desc>
+  <rect width="297" height="210" fill="white"/>
+  <g fill="black">
+    <rect x="48.5" y="35" width="20" height="20"/>
+    <rect x="88.5" y="35" width="20" height="20"/>
+    <rect x="128.5" y="35" width="20" height="20"/>
+    <rect x="168.5" y="35" width="20" height="20"/>
+    <rect x="208.5" y="35" width="20" height="20"/>
+    <rect x="68.5" y="55" width="20" height="20"/>
+    <rect x="108.5" y="55" width="20" height="20"/>
+    <rect x="148.5" y="55" width="20" height="20"/>
+    <rect x="188.5" y="55" width="20" height="20"/>
+    <rect x="228.5" y="55" width="20" height="20"/>
+    <rect x="48.5" y="75" width="20" height="20"/>
+    <rect x="88.5" y="75" width="20" height="20"/>
+    <rect x="128.5" y="75" width="20" height="20"/>
+    <rect x="168.5" y="75" width="20" height="20"/>
+    <rect x="208.5" y="75" width="20" height="20"/>
+    <rect x="68.5" y="95" width="20" height="20"/>
+    <rect x="108.5" y="95" width="20" height="20"/>
+    <rect x="148.5" y="95" width="20" height="20"/>
+    <rect x="188.5" y="95" width="20" height="20"/>
+    <rect x="228.5" y="95" width="20" height="20"/>
+    <rect x="48.5" y="115" width="20" height="20"/>
+    <rect x="88.5" y="115" width="20" height="20"/>
+    <rect x="128.5" y="115" width="20" height="20"/>
+    <rect x="168.5" y="115" width="20" height="20"/>
+    <rect x="208.5" y="115" width="20" height="20"/>
+    <rect x="68.5" y="135" width="20" height="20"/>
+    <rect x="108.5" y="135" width="20" height="20"/>
+    <rect x="148.5" y="135" width="20" height="20"/>
+    <rect x="188.5" y="135" width="20" height="20"/>
+    <rect x="228.5" y="135" width="20" height="20"/>
+    <rect x="48.5" y="155" width="20" height="20"/>
+    <rect x="88.5" y="155" width="20" height="20"/>
+    <rect x="128.5" y="155" width="20" height="20"/>
+    <rect x="168.5" y="155" width="20" height="20"/>
+    <rect x="208.5" y="155" width="20" height="20"/>
+  </g>
+</svg>

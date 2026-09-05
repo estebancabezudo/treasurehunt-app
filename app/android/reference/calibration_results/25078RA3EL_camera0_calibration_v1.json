@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "identity": {
+    "cameraId": "0",
+    "bufferWidth": 640,
+    "bufferHeight": 480,
+    "cropRect": {"left": 0, "top": 0, "right": 640, "bottom": 480},
+    "internalColumns": 9,
+    "internalRows": 6,
+    "horizontalSquareSizeMm": 18.2,
+    "verticalSquareSizeMm": 18.142857,
+    "coordinateSystem": "IMAGE_ANALYSIS_BUFFER_CANONICAL_UNROTATED"
+  },
+  "datasetSha256": "dd1265969a19a98724cb2feb8f488af1cae49a9288e33dcdfa368bb16acb64fc",
+  "calculatedAtEpochMillis": 1787973810469,
+  "openCvVersion": "5.0.0",
+  "distortionModel": "OPENCV_STANDARD_5_K1_K2_P1_P2_K3",
+  "outlierCriterion": "RMS por muestra > mediana + 3.5 × 1.4826 × MAD; si MAD=0 no se excluyen muestras.",
+  "detectedOutlierSampleIndices": [],
+  "comparativeCalibrationDecision": "No se detectaron outliers; no se ejecutó una segunda calibración.",
+  "primary": {
+    "usedSampleIndices": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20],
+    "excludedSampleIndices": [],
+    "intrinsicMatrix": [512.1896499686958,0.0,320.6979064108433,0.0,510.8289422155201,235.15453293736934,0.0,0.0,1.0],
+    "distortionCoefficients": [0.23396344955710474,-0.7504242433150227,-0.0034657026611985327,-0.003253958338534062,0.6987756984713288],
+    "globalRmsPixels": 0.20687368633351183,
+    "errorSummary": {"meanSampleRmsPixels": 0.19567295339729016, "medianSampleRmsPixels": 0.18231725342826272, "maximumSampleRmsPixels": 0.31868799090330135, "percentile95SampleRmsPixels": 0.2995435350978786},
+    "sampleErrors": [
+      {"sampleIndex": 1, "rmsPixels": 0.14826117104359218, "meanPixels": 0.13061906692198194, "maximumPixels": 0.2739198606704635, "orientation": "PORTRAIT", "scale": "MEDIUM", "gridPosition": "CENTER"},
+      {"sampleIndex": 2, "rmsPixels": 0.241895697032749, "meanPixels": 0.2072350577068537, "maximumPixels": 0.5472316201297313, "orientation": "PORTRAIT", "scale": "MEDIUM", "gridPosition": "BOTTOM_LEFT"},
+      {"sampleIndex": 3, "rmsPixels": 0.17886076035284468, "meanPixels": 0.15688192877633897, "maximumPixels": 0.4120690161594855, "orientation": "PORTRAIT", "scale": "MEDIUM", "gridPosition": "BOTTOM_RIGHT"},
+      {"sampleIndex": 4, "rmsPixels": 0.1422462900101741, "meanPixels": 0.12640693812412593, "maximumPixels": 0.37154810541614597, "orientation": "PORTRAIT", "scale": "MEDIUM", "gridPosition": "TOP_LEFT"},
+      {"sampleIndex": 5, "rmsPixels": 0.1320498880610561, "meanPixels": 0.12108775623812598, "maximumPixels": 0.24196708555165156, "orientation": "PORTRAIT", "scale": "MEDIUM", "gridPosition": "TOP_CENTER"},
+      {"sampleIndex": 6, "rmsPixels": 0.1373462730237208, "meanPixels": 0.1189064505004434, "maximumPixels": 0.3510164610773231, "orientation": "PORTRAIT", "scale": "MEDIUM", "gridPosition": "TOP_RIGHT"},
+      {"sampleIndex": 7, "rmsPixels": 0.21201641702845467, "meanPixels": 0.185563219824258, "maximumPixels": 0.48824527502154286, "orientation": "PORTRAIT", "scale": "MEDIUM", "gridPosition": "CENTER_LEFT"},
+      {"sampleIndex": 8, "rmsPixels": 0.13297941891250595, "meanPixels": 0.11636681015195655, "maximumPixels": 0.30640215621501116, "orientation": "PORTRAIT", "scale": "MEDIUM", "gridPosition": "CENTER_RIGHT"},
+      {"sampleIndex": 9, "rmsPixels": 0.15345394941752558, "meanPixels": 0.14012781901907775, "maximumPixels": 0.2781986866981333, "orientation": "PORTRAIT", "scale": "MEDIUM", "gridPosition": "BOTTOM_CENTER"},
+      {"sampleIndex": 10, "rmsPixels": 0.055878178653562545, "meanPixels": 0.050734069507933216, "maximumPixels": 0.1095217471772237, "orientation": "PORTRAIT", "scale": "SMALL", "gridPosition": "CENTER"},
+      {"sampleIndex": 11, "rmsPixels": 0.27910027137338295, "meanPixels": 0.2513605423678403, "maximumPixels": 0.6242495302210413, "orientation": "PORTRAIT", "scale": "LARGE", "gridPosition": "CENTER"},
+      {"sampleIndex": 12, "rmsPixels": 0.15701695655270181, "meanPixels": 0.13397324167396277, "maximumPixels": 0.32030528230501865, "orientation": "PORTRAIT", "scale": "SMALL", "gridPosition": "CENTER"},
+      {"sampleIndex": 13, "rmsPixels": 0.18577374650368073, "meanPixels": 0.16918481504403413, "maximumPixels": 0.37404163810579344, "orientation": "PORTRAIT", "scale": "MEDIUM", "gridPosition": "CENTER"},
+      {"sampleIndex": 14, "rmsPixels": 0.19227603815625402, "meanPixels": 0.1648392328916507, "maximumPixels": 0.4346270891132818, "orientation": "PORTRAIT", "scale": "MEDIUM", "gridPosition": "CENTER"},
+      {"sampleIndex": 15, "rmsPixels": 0.2786250958628137, "meanPixels": 0.24992958747825064, "maximumPixels": 0.5085380847213076, "orientation": "PORTRAIT", "scale": "MEDIUM", "gridPosition": "CENTER"},
+      {"sampleIndex": 16, "rmsPixels": 0.2785564356576744, "meanPixels": 0.250852379194586, "maximumPixels": 0.5587621881715253, "orientation": "PORTRAIT", "scale": "MEDIUM", "gridPosition": "CENTER"},
+      {"sampleIndex": 17, "rmsPixels": 0.2995435350978786, "meanPixels": 0.2719915134030427, "maximumPixels": 0.5589336381567886, "orientation": "LANDSCAPE", "scale": "MEDIUM", "gridPosition": "CENTER"},
+      {"sampleIndex": 18, "rmsPixels": 0.16758962281341167, "meanPixels": 0.15028839045276338, "maximumPixels": 0.3431230270963286, "orientation": "LANDSCAPE", "scale": "SMALL", "gridPosition": "CENTER"},
+      {"sampleIndex": 19, "rmsPixels": 0.2213013314885187, "meanPixels": 0.19723764105509684, "maximumPixels": 0.50934894406816, "orientation": "LANDSCAPE", "scale": "SMALL", "gridPosition": "CENTER"},
+      {"sampleIndex": 20, "rmsPixels": 0.31868799090330135, "meanPixels": 0.2712812347879854, "maximumPixels": 0.8777565268530175, "orientation": "LANDSCAPE", "scale": "LARGE", "gridPosition": "CENTER"}
+    ]
+  },
+  "comparativeWithoutOutliers": null
+}

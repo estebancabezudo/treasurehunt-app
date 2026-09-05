@@ -114,9 +114,9 @@ stage_filesystem_tree() {
 }
 
 if git -C "${product_root}" rev-parse --is-inside-work-tree >/dev/null 2>&1; then
-    stage_git_selection "${product_root}" 'treasurehunt' '.'
+    stage_git_selection "${product_root}" 'treasurehunt.com' '.'
 else
-    stage_filesystem_tree "${product_root}" 'treasurehunt'
+    stage_filesystem_tree "${product_root}" 'treasurehunt.com'
 fi
 
 stage_git_selection "${backend_root}" 'games/backend' '.'
