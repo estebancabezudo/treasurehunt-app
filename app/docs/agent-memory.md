@@ -1,4 +1,4 @@
-# Treasure Hunt — memoria de la aplicación (`treasurehunt.com`)
+# Treasure Hunt — memoria de la aplicación
 
 ## Regla absoluta de endpoints
 
@@ -28,12 +28,12 @@ La primera prueba de concepto debe validar la parte técnicamente más incierta:
 
 ## Organización de proyectos
 
-### Producto `treasurehunt.com`
+### Producto `treasurehunt`
 
 Contiene todo lo específico del producto Treasure Hunt:
 
 ```text
-treasurehunt.com/
+treasurehunt/
 ├── app/
 │   ├── android/
 │   └── ios/
@@ -401,7 +401,7 @@ Este modelo es orientativo. No debe convertirse todavía en entidades persistent
 
 ## Verificación vigente
 
-- Desde `/home/esteban/Documents/treasurehunt.com/app/android`,
+- Desde `/home/esteban/Documents/treasurehunt/app/android`,
   `ANDROID_HOME=/home/esteban/Android/Sdk ./gradlew testDebugUnitTest lintDebug assembleDebug`
   termina con `BUILD SUCCESSFUL`.
 - La suite local ejecuta 131 pruebas unitarias, sin fallos, errores ni omitidas.

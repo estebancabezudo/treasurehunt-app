@@ -1,8 +1,9 @@
-# Instrucciones específicas de treasurehunt.com
+# Instrucciones específicas de Treasure Hunt
 
 La rama permanente de este producto es `treasurehunt`.
 
-El producto se organiza bajo `/home/esteban/Documents/treasurehunt.com`:
+El producto se organiza bajo `/home/esteban/Documents/treasurehunt` mientras no tenga
+un dominio definitivo:
 
 - `app/`: aplicaciones instalables. Android es la plataforma activa; iOS permanece
   reservado para una etapa posterior. Antes de modificar la aplicación, leer
