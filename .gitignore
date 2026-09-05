@@ -1,1 +1,11 @@
-scripts/*.zip
+.idea/
+**/.gradle/
+**/.kotlin/
+**/build/
+**/local.properties
+*.apk
+*.aab
+*.jks
+*.keystore
+*.p12
+*.pfx
